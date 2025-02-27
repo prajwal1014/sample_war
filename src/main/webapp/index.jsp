@@ -44,7 +44,7 @@
 </head>
 <body>
 
-    <h1>IMDb Clone - Top Rated Movies</h1>
+    <h1>IMDB Marvel movies</h1>
     
     <div class="container">
         <div class="movie">
