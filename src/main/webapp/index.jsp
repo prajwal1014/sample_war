@@ -48,7 +48,7 @@
     
     <div class="container">
         <div class="movie">
-            <img src="avengers_endgame.jpeg" alt="Avengers: Endgame">
+            <img src="./images/avengers_endgame.jpeg" alt="Avengers: Endgame">
             <h3>Avengers: Endgame</h3>
             <div class="rating">⭐ 8.4/10</div>
         </div>
