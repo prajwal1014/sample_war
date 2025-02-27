@@ -54,43 +54,43 @@
         </div>
 
         <div class="movie">
-            <img src="avengers_infinity.jpeg" alt="Avengers: Infinity War">
+            <img src="./images/avengers_infinity.jpeg" alt="Avengers: Infinity War">
             <h3>Avengers: Infinity War</h3>
             <div class="rating">⭐ 8.5/10</div>
         </div>
 
         <div class="movie">
-            <img src="black_panther.jpeg" alt="Black Panther">
+            <img src="./images/black_panther.jpeg" alt="Black Panther">
             <h3>Black Panther</h3>
             <div class="rating">⭐ 7.3/10</div>
         </div>
 
         <div class="movie">
-            <img src="black_widow.jpeg" alt="Black Widow">
+            <img src="./images/black_widow.jpeg" alt="Black Widow">
             <h3>Black Widow</h3>
             <div class="rating">⭐ 6.7/10</div>
         </div>
 
         <div class="movie">
-            <img src="captain_marvel.jpeg" alt="Captain Marvel">
+            <img src="./images/captain_marvel.jpeg" alt="Captain Marvel">
             <h3>Captain Marvel</h3>
             <div class="rating">⭐ 6.8/10</div>
         </div>
 
         <div class="movie">
-            <img src="iron_man_2.jpeg" alt="Iron Man 2">
+            <img src="./images/iron_man_2.jpeg" alt="Iron Man 2">
             <h3>Iron Man 2</h3>
             <div class="rating">⭐ 7.0/10</div>
         </div>
 
         <div class="movie">
-            <img src="shang-chi.jpeg" alt="Shang-Chi">
+            <img src="./images/shang-chi.jpeg" alt="Shang-Chi">
             <h3>Shang-Chi</h3>
             <div class="rating">⭐ 7.9/10</div>
         </div>
 
         <div class="movie">
-            <img src="thor.jpeg" alt="Thor">
+            <img src="./images/thor.jpeg" alt="Thor">
             <h3>Thor</h3>
             <div class="rating">⭐ 7.0/10</div>
         </div>
