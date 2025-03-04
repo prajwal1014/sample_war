@@ -14,6 +14,24 @@ pipeline{
                 sh 'mvn clean package'
             }
         }
+        stage('copy war file'){
+            steps{
+                sh 'mv target/webapp.war .'
+                sshPublisher(
+                    continueOnError: false, failOnError: true,
+                    publishers: [
+                        sshPublisherDesc(
+                        configName: "webapp",
+                        transfers: [
+                            sshTransfer(sourceFiles: "webapp.war")
+                            
+                        ]
+                        )
+                    ]
+                )
+
+            }
+        }
         stage('copy Docker file'){
             steps{
                 sshPublisher(
@@ -35,24 +53,7 @@ pipeline{
 
             }
         }
-        stage('copy war file'){
-            steps{
-                sh 'mv target/webapp.war .'
-                sshPublisher(
-                    continueOnError: false, failOnError: true,
-                    publishers: [
-                        sshPublisherDesc(
-                        configName: "webapp",
-                        transfers: [
-                            sshTransfer(sourceFiles: "webapp.war")
-                            
-                        ]
-                        )
-                    ]
-                )
-
-            }
-        }
+        
         
         
     }
